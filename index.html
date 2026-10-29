@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Únete a la carrera solidaria de la Fundación Manos Unidas. Corre por una buena causa.">
+    <title>Manos Unidas | Carrera Solidaria</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <a class="logo" href="#inicio" aria-label="Manos Unidas, ir al inicio">
+            <span class="logo-icono" aria-hidden="true">💚</span>
+            <span>Manos Unidas</span>
+        </a>
+
+        <nav aria-label="Navegación principal">
+            <a href="#fundacion">Fundación</a>
+            <a href="#categorias">Categorías</a>
+            <a href="#recorrido">Recorrido</a>
+            <a href="#patrocinadores">Patrocinadores</a>
+            <a href="#inscripcion" class="boton-nav">Inscríbete</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-contenido">
+                <span class="etiqueta">CORREMOS POR UNA BUENA CAUSA</span>
+                <h1>Una carrera,<br>mil razones para <span>ayudar.</span></h1>
+                <p>
+                    Participa en la Carrera Solidaria Manos Unidas.
+                    Cada paso cuenta para construir un futuro mejor.
+                </p>
+
+                <div class="datos-evento">
+                    <div>
+                        <span aria-hidden="true">📅</span>
+                        <div>
+                            <strong>20 de diciembre de 2026</strong>
+                            <small>Domingo · 7:00 a. m.</small>
+                        </div>
+                    </div>
+                    <div>
+                        <span aria-hidden="true">📍</span>
+                        <div>
+                            <strong>Parque principal</strong>
+                            <small>Municipio por confirmar</small>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#inscripcion" class="boton boton-principal">
+                    ¡Quiero participar!
+                </a>
+            </div>
+        </section>
+
+        <section class="cuenta-seccion" aria-labelledby="titulo-cuenta">
+            <h2 id="titulo-cuenta">La solidaridad está a punto de comenzar</h2>
+            <p>Cuenta regresiva para nuestra carrera solidaria</p>
+
+            <div class="cuenta-regresiva" aria-label="Tiempo restante para la carrera">
+                <div class="tiempo">
+                    <span id="dias">8</span>
+                    <small>Días</small>
+                </div>
+                <div class="tiempo">
+                    <span id="horas">10</span>
+                    <small>Horas</small>
+                </div>
+                <div class="tiempo">
+                    <span id="minutos">20</span>
+                    <small>Minutos</small>
+                </div>
+                <div class="tiempo">
+                    <span id="segundos">30</span>
+                    <small>Segundos</small>
+                </div>
+            </div>
+            <p id="estado-cuenta" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="seccion" id="fundacion">
+            <div class="titulo-seccion">
+                <span class="etiqueta">CONOCE NUESTRA LABOR</span>
+                <h2>Pequeñas acciones, grandes cambios</h2>
+                <p>Trabajamos unidos para llevar esperanza a quienes más lo necesitan.</p>
+            </div>
+
+            <div class="tarjetas-info">
+                <article class="tarjeta-info">
+                    <div class="icono" aria-hidden="true">❤️</div>
+                    <h3>Nuestra misión</h3>
+                    <p>
+                        Promover la solidaridad y mejorar la calidad de vida
+                        de comunidades vulnerables mediante programas de
+                        apoyo social, educación y bienestar.
+                    </p>
+                </article>
+
+                <article class="tarjeta-info">
+                    <div class="icono" aria-hidden="true">🌱</div>
+                    <h3>Nuestra visión</h3>
+                    <p>
+                        Ser una fundación reconocida por su compromiso,
+                        transparencia y capacidad de generar oportunidades
+                        para construir una sociedad más justa.
+                    </p>
+                </article>
+
+                <article class="tarjeta-info">
+                    <div class="icono" aria-hidden="true">🤝</div>
+                    <h3>Nuestros proyectos</h3>
+                    <p>
+                        Impulsamos jornadas de entrega de alimentos,
+                        actividades educativas y campañas de bienestar
+                        comunitario. Estos ejemplos deben ajustarse a los
+                        proyectos reales de la fundación.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion seccion-verde" id="categorias">
+            <div class="titulo-seccion">
+                <span class="etiqueta">HAY UN LUGAR PARA TI</span>
+                <h2>Elige tu categoría</h2>
+                <p>Corre a tu ritmo y sé parte del cambio.</p>
+            </div>
+
+            <div class="tarjetas-categorias">
+                <article class="tarjeta-categoria">
+                    <div class="distancia">5K</div>
+                    <h3>Carrera 5 kilómetros</h3>
+                    <p>Ideal para principiantes y personas que desean disfrutar del recorrido.</p>
+                    <ul>
+                        <li>Edad mínima: 12 años</li>
+                        <li>Salida: 7:30 a. m.</li>
+                        <li>Recorrido recreativo</li>
+                    </ul>
+                    <a href="#inscripcion" class="boton boton-secundario">Elegir 5K</a>
+                </article>
+
+                <article class="tarjeta-categoria destacada">
+                    <span class="etiqueta">RETO DEPORTIVO</span>
+                    <div class="distancia">10K</div>
+                    <h3>Carrera 10 kilómetros</h3>
+                    <p>Un desafío para quienes quieren superar sus límites corriendo.</p>
+                    <ul>
+                        <li>Edad mínima: 16 años</li>
+                        <li>Salida: 7:00 a. m.</li>
+                        <li>Ritmo libre</li>
+                    </ul>
+                    <a href="#inscripcion" class="boton boton-principal">Elegir 10K</a>
+                </article>
+
+                <article class="tarjeta-categoria">
+                    <div class="distancia">FAM</div>
+                    <h3>Carrera familiar</h3>
+                    <p>Comparte una mañana activa y solidaria con familiares y amigos.</p>
+                    <ul>
+                        <li>Edad mínima sugerida: 5 años</li>
+                        <li>Salida: 8:00 a. m.</li>
+                        <li>Menores acompañados por un adulto</li>
+                    </ul>
+                    <a href="#inscripcion" class="boton boton-secundario">Elegir familiar</a>
+                </article>
+            </div>
+            <p class="nota">
+                Horarios y edades de ejemplo. La organización debe confirmar las reglas oficiales.
+            </p>
+        </section>
+
+        <section class="seccion recorrido" id="recorrido">
+            <div class="recorrido-texto">
+                <span class="etiqueta">PREPÁRATE PARA LA CARRERA</span>
+                <h2>Un recorrido lleno de esperanza</h2>
+                <p>
+                    El punto de encuentro será el parque principal. Desde allí,
+                    los participantes seguirán un circuito señalizado por la
+                    organización, con personal de apoyo y puntos de hidratación.
+                </p>
+                <div class="dato-recorrido">
+                    <span aria-hidden="true">📍</span>
+                    <div>
+                        <strong>Salida y llegada</strong>
+                        <p>Parque principal, ubicación por confirmar.</p>
+                    </div>
+                </div>
+                <div class="dato-recorrido">
+                    <span aria-hidden="true">💧</span>
+                    <div>
+                        <strong>Recomendaciones</strong>
+                        <p>Usa ropa deportiva, llega con anticipación e hidrátate.</p>
+                    </div>
+                </div>
+                <p class="nota">
+                    El mapa y las calles exactas se publicarán cuando la ruta sea confirmada.
+                </p>
+            </div>
+
+            <div class="recorrido-visual" role="img"
+                 aria-label="Ilustración decorativa de una ruta de carrera con árboles y una meta">
+                <div class="ruta-circulo">🏃‍♀️</div>
+                <div class="ruta-linea"></div>
+                <div class="ruta-meta">🏁 META</div>
+            </div>
+        </section>
+
+        <section class="seccion seccion-formulario" id="inscripcion">
+            <div class="titulo-seccion">
+                <span class="etiqueta">SÉ PARTE DEL CAMBIO</span>
+                <h2>Inscríbete a la carrera</h2>
+                <p>Completa tus datos para registrar tu participación.</p>
+            </div>
+
+            <form id="formulario-inscripcion" novalidate>
+                <div class="campo">
+                    <label for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre"
+                           autocomplete="name" required minlength="5"
+                           placeholder="Ej. María Pérez Gómez">
+                    <small class="error" id="error-nombre"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="documento">Documento de identidad *</label>
+                    <input type="text" id="documento" name="documento"
+                           inputmode="numeric" autocomplete="off"
+                           required pattern="[0-9]{5,15}"
+                           placeholder="Solo números">
+                    <small class="error" id="error-documento"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico *</label>
+                    <input type="email" id="correo" name="correo"
+                           autocomplete="email" required
+                           placeholder="nombre@correo.com">
+                    <small class="error" id="error-correo"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Teléfono *</label>
+                    <input type="tel" id="telefono" name="telefono"
+                           autocomplete="tel" inputmode="numeric"
+                           required pattern="[0-9]{7,15}"
+                           placeholder="Ej. 3101234567">
+                    <small class="error" id="error-telefono"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="nacimiento">Fecha de nacimiento *</label>
+                    <input type="date" id="nacimiento" name="nacimiento" required>
+                    <small class="error" id="error-nacimiento"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="categoria">Categoría *</label>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Selecciona una categoría</option>
+                        <option value="5K">Carrera 5 kilómetros</option>
+                        <option value="10K">Carrera 10 kilómetros</option>
+                        <option value="Familiar">Carrera familiar</option>
+                    </select>
+                    <small class="error" id="error-categoria"></small>
+                </div>
+
+                <div class="campo">
+                    <label for="camiseta">Talla de camiseta *</label>
+                    <select id="camiseta" name="camiseta" required>
+                        <option value="">Selecciona tu talla</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                    </select>
+                    <small class="error" id="error-camiseta"></small>
+                </div>
+
+                <div class="campo campo-completo">
+                    <label class="checkbox-label" for="acepto">
+                        <input type="checkbox" id="acepto" name="acepto" required>
+                        Confirmo que mis datos son correctos y acepto que la
+                        organización los use para gestionar esta inscripción.
+                    </label>
+                    <small class="error" id="error-acepto"></small>
+                </div>
+
+                <div class="campo campo-completo">
+                    <button type="submit" class="boton boton-principal boton-enviar">
+                        Enviar inscripción
+                    </button>
+                    <p class="nota">
+                        * Campos obligatorios. Este formulario es una demostración:
+                        no envía los datos a un servidor.
+                    </p>
+                </div>
+
+                <div id="mensaje-exito" class="mensaje-exito campo-completo"
+                     role="status" aria-live="polite" tabindex="-1" hidden>
+                </div>
+            </form>
+        </section>
+
+        <section class="seccion patrocinadores" id="patrocinadores">
+            <div class="titulo-seccion">
+                <span class="etiqueta">GRACIAS POR SUMARSE</span>
+                <h2>Nuestros patrocinadores</h2>
+                <p>Aliados que ayudan a hacer posible esta iniciativa.</p>
+            </div>
+
+            <div class="logos-patrocinadores">
+                <div class="logo-patrocinador">
+                    <span aria-hidden="true">🌿</span>
+                    <strong>EcoVida</strong>
+                    <small>Aliado ambiental</small>
+                </div>
+                <div class="logo-patrocinador">
+                    <span aria-hidden="true">⚡</span>
+                    <strong>Energía Activa</strong>
+                    <small>Aliado deportivo</small>
+                </div>
+                <div class="logo-patrocinador">
+                    <span aria-hidden="true">💧</span>
+                    <strong>Agua Pura</strong>
+                    <small>Aliado de hidratación</small>
+                </div>
+                <div class="logo-patrocinador">
+                    <span aria-hidden="true">🏪</span>
+                    <strong>Comercial Unido</strong>
+                    <small>Aliado comunitario</small>
+                </div>
+            </div>
+            <p class="nota">
+                Los nombres y logotipos anteriores son ejemplos ficticios. Sustitúyelos por los patrocinadores reales.
+            </p>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <a class="logo logo-pie" href="#inicio">💚 Manos Unidas</a>
+        <p>Unidos por la solidaridad. Cada paso puede cambiar una vida.</p>
+        <p class="copyright">© 2026 Fundación Manos Unidas · Carrera Solidaria</p>
+    </footer>
+
+</body>
+</html>
